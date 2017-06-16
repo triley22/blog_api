@@ -1,0 +1,22 @@
+{
+  "name": "blog_api",
+  "version": "1.0.0",
+  "description": "blog_api",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/triley22/blog_api.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/triley22/blog_api/issues"
+  },
+  "homepage": "https://github.com/triley22/blog_api#readme",
+  "dependencies": {
+    "uuid": "^3.0.1"
+  }
+}
