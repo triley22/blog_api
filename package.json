@@ -4,7 +4,7 @@
   "description": "blog_api",
   "main": "server.js",
   "scripts": {
-  "start": "node server.js"
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
@@ -20,10 +20,7 @@
   },
   "homepage": "https://github.com/triley22/blog_api#readme",
   "dependencies": {
-    "uuid": "^3.0.1"
-  },
-  "dependencies": {
-    "body-parser": "^1.15.2",
+    "body-parser": "^1.17.2",
     "express": "^4.12.4",
     "morgan": "^1.7.0",
     "uuid": "^2.0.3"
