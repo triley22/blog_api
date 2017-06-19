@@ -75,7 +75,7 @@ router.put('/:id', jsonParser, (req, res) => {
 
 
 //endpoint for delete, ud as url path variable and call
-app.delete('/:id', (req, res) => {
+router.delete('/:id', (req, res) => {
   BlogPosts.delete(req.params.id);
   console.log(`Deleted blog post with id \`${req.params.ID}\``);
   res.status(204).end();
